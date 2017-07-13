@@ -4,7 +4,6 @@ module NanoLog
 
     @logfile = nil
 
-    # Log message builder strings
     INFO    = ' [INFO] '
     DEBUG   = ' [DEBUG] '
     FATAL   = ' [FATAL] '
@@ -13,10 +12,12 @@ module NanoLog
 
     #
     # @param path [String] the path to save the logfile at
+    # @param flush [boolean] whether or not to flush the previous file (if it already exists)
     #
-    def initialize(path)
+    def initialize(path, flush=false)
       raise NanoLog::NilPathError unless !path.nil?
-      @logfile = File.new(path, 'a')
+      @logfile = File.new(path, 'a') unless flush
+      @logfile = File.new(path, 'w+') if flush
     end
 
     #
