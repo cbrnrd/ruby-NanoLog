@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'nanolog'
-  s.version     = '0.1.1'
+  s.version     = '0.1.1b'
   s.date        = '2017-07-12'
   s.summary     = "A small and simple logging gem"
   s.authors     = ["Carter Brainerd"]
