@@ -19,10 +19,10 @@ Install the gem like so:
 
 or add the following line to your `Gemfile`:
 
-`gem 'nanolog', '~> 0.1.1'`
+`gem 'nanolog', '~> 0.1.1b'`
 
 ## Documentation
-Available [here](http://www.rubydoc.info/gems/nanolog/0.1.1)
+Available [here](http://www.rubydoc.info/gems/nanolog/0.1.1b)
 
 ## Authors
 - Carter Brainerd (cbrnrd) - [GitHub](https://github.com/cbrnrd)
