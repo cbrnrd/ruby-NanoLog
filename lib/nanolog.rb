@@ -65,6 +65,15 @@ module NanoLog
       @logfile.rewind
     end
 
+    #
+    # Write a message with no category to the log file
+    # @param message [String] the message to log
+    #
+    def none(message='')
+      @logfile.write("#{Time.now} #{message}\n")
+      @logfile.rewind
+    end
+
   end
 
   #
