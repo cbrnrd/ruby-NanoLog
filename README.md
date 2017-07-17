@@ -6,6 +6,8 @@ A simple and extremely small logging library for Ruby.
 A simple program using NanoLog looks like so:
 
 ```ruby
+require 'nanolog'
+
 logger = NanoLog::Logger.new('filepath.log')
 
 logger.info('informational message')
