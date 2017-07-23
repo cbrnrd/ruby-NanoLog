@@ -23,6 +23,10 @@ or add the following line to your `Gemfile`:
 
 `gem 'nanolog', '~> 0.1.1c'`
 
+## Design Highlights
+- Simple and easy to use API
+- Incredibly small gem (~5kb!)
+
 ## Documentation
 Available [here](http://www.rubydoc.info/gems/nanolog/0.1.1c)
 
