@@ -21,7 +21,9 @@ Install the gem like so:
 
 or add the following line to your `Gemfile`:
 
-`gem 'nanolog'`
+```ruby
+gem 'nanolog'
+```
 
 ## Design Highlights
 - Simple and easy to use API
