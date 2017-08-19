@@ -1,4 +1,4 @@
-# NanoLog [![Gem Version](https://badge.fury.io/rb/nanolog.svg)](https://badge.fury.io/rb/nanolog)
+# NanoLog [![Gem Version](https://badge.fury.io/rb/nanolog.svg)](https://badge.fury.io/rb/nanolog) ![Downloads](https://img.shields.io/badge/Downloads-%3E600-red.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cbrnrd/ruby-NanoLog/master/LICENSE)
 A simple and extremely small logging library for Ruby.
 
 ## Getting Started
